@@ -1,0 +1,51 @@
+#container {
+	min-height: 90vw;
+	width: 80vw;
+	margin-left: 8vw;
+	background-color: grey;
+	padding: 2vw;
+	float: left;
+	clear: both;
+}
+
+#menuheader {
+	float: left;
+	clear: both;
+	min-height: 4vw;
+	width: 50vw; 
+	margin-left: 10vw;
+	padding: 1vw;
+	background-color: silver;
+}
+
+#textarea {
+	float: left;
+	clear: both;
+	min-height: 40vh;
+	width: 50vw;
+	margin-left: 10vw;
+	color: white;
+	padding: 1vw;
+	background-color: black;
+}
+
+
+.menubox {
+	min-width: 8vw;
+	/* width is measured in units viewport width    vw  there is also vh for height */
+	background-color: black;
+	font-size: 16pt;
+	color: white; 
+	float: left;
+	margin: .5vw;
+	padding: 1vw;
+	border-radius: 5px; 
+	text-align: center;
+}
+
+
+.smallbox {
+	height: 10vw;
+	width: 10vw;
+	background-color: red;
+}

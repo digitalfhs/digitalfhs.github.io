@@ -1,0 +1,6 @@
+Line 1 by joe  at 11:57 on april 15
+line 2 by joe at 3:32 april 15
+line 3 by joe at 9:07 April 19  check into git.ignore file or whatever it is named
+created a branch "gh-pages"
+set gh-pages as master branch
+deleted old master branch
