@@ -15,7 +15,8 @@
 	width: 50vw; 
 	margin-left: 10vw;
 	padding: 1vw;
-	background-color: silver;
+	/*background-color: silver;*/
+	background-color: #591e28;
 }
 
 #textarea {
@@ -27,6 +28,7 @@
 	color: white;
 	padding: 1vw;
 	background-color: black;
+	font-size: 24pt;
 }
 
 
@@ -49,3 +51,31 @@
 	width: 10vw;
 	background-color: red;
 }
+
+
+/* unvisited link */
+a:link {
+    color: #d1758b ;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: maroon;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+
+
