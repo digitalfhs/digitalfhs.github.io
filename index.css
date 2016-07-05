@@ -1,25 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	font-size: 32px;
+	background-color: grey;
+	/*font-size: 32px;*/
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
 }
 
 #container {
 	min-height: 90vw;
-	width: 95vw;
-	margin-left: 2.5vw;
-	background-color: grey;
+  /*width: 95vw;*/
+	width: 81vw;
+	/*margin-left: 2.5vw;*/
 	/*padding: 2vw;*/
-	float: left;
-	clear: both;
+	/*float: left;
+	clear: both;*/
+	margin: 0 auto;
 }
 
 #menuheader {
 	float: left;
 	clear: both;
 	min-height: 4vw;
-	width: 81vw; 
+	/*width: 81vw;*/
+	width: 100%;
 	padding: 3vw;
 
-	margin-left: 5vw;
+	/*margin-left: 5vw;*/
 	/*background-color: silver;*/
 	background-color: #591e28;
 }
@@ -28,9 +38,10 @@ body {
 	float: left;
 	clear: both;
 	min-height: 40vh;
-	width: 81vw;
+	/*width: 81vw;*/
+	width: 100%;
 	padding: 3vw;
-	margin-left: 5vw;
+	/*margin-left: 5vw;*/
 	color: white;
 	background-color: black;
 	/*font-size: 24pt;*/
@@ -41,12 +52,13 @@ body {
 	min-width: 8vw;
 	/* width is measured in units viewport width    vw  there is also vh for height */
 	background-color: black;
-	font-size: 32pt;
-	color: white; 
+	/*font-size: 32pt;*/
+	color: white;
+	display: block;
 	float: left;
 	margin: .5vw;
 	padding: 1vw;
-	border-radius: 10vw; 
+	border-radius: 10vw;
 	text-align: center;
 	border: .5vw white solid;
 }
@@ -84,6 +96,3 @@ a:active {
     color: red;
     text-decoration: none;
 }
-
-
-
