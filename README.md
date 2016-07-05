@@ -12,6 +12,7 @@ A place for Franklin High School Computer Science resources.
   * Created sensible .gitignore to ignore unrelated system files
   * Updated IA content
   * Added changelog to README
+  * Obfuscate email addresses
 
 ## 2016-04-15 and before
 ### Joe Rowe
