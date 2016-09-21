@@ -1,0 +1,46 @@
+/*  this is a comment   my selector the letter p   paragraphs */
+
+p {
+font-size: 18pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+padding: 20px;
+/* the padding moves the text away from other objects */
+background-color: grey;
+color: white;
+font-family: Comic Sans MS;	
+/* this is a middle school teacher's favorite font */
+}
+
+body {
+background-color: black;
+
+}
+
+a{
+color:yellow;
+font-size: 24pt;
+text-decoration: none;
+}
+
+u:hover {
+color:yellow;
+}
