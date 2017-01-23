@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homework excuse coding tools</title>
+
+<script type="text/javascript">
+
+// this is a comment in JavaScript
+
+
+//        _==/          i     i          \==_
+//      /XX/            |\___/|            \XX\
+//    /XXXX\            |XXXXX|            /XXXX\
+//   |XXXXXX\_         _XXXXXXX_         _/XXXXXX|
+//  XXXXXXXXXXXxxxxxxxXXXXXXXXXXXxxxxxxxXXXXXXXXXXX
+// |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+//  XXXXXX/^^^^"\XXXXXXXXXXXXXXXXXXXXX/^^^^^\XXXXXX
+//   |XXX|       \XXX/^^\XXXXX/^^\XXX/       |XXX|
+//     \XX\       \X/    \XXX/    \X/       /XX/
+//        "\       "      \X/      "      /"
+
+
+function myExcuseFunction(divParamater) {
+// Declare a function. Functions help create organized & modular code.
+
+// pseudocode = create a list of animals, verbs, & actions then push out a random excuse to the DIV
+
+	
+// Declare a new variable myAnimals.  The variable type is an array which is a list of data
+	var myAnimals = ['dog', 'cat',  'hamster', 'turtle', 'best friend', 'sister', 'brother'   ];
+
+	var myVerbs = ['ate', 'destroyed', 'deleted', 'erased', 'twitched', 'recycled', 'undermined', 'upcycled', 'gave away', 'plagiarised', 'confiscated', 'barfed on', 'stole', 'ransomed', 'spilled water on', 'lost', 'misplaced', 'buried', 'shredded', 'hid', 'liberated', 'left with' ];
+
+	var mySchoolObjects = [ 'laptop', 'homework', 'project', 'essay', 'film project', 'visualization', 'infographic', 'pre-writing', 'term paper', 'lab report', 'reading log', 'summary', 'article', 'flash cards', 'study guide', 'textbook', 'workbook', 'reading book', 'diorama', 'poster', 'dreams', 'laptop', 'computer', 'tablet', 'momentum', 'report', 'slideshow', 'slide deck', 'presentation', 'worksheet', 'handout', 'notes', 'portfolio', 'blog post', 'comment'];
+	
+
+	var randomNumber = 0;
+	// declare a new variable, and set it to zero.    I like to initialize.
+	// the method Math.random() only picks values zero to .99999 so we need mutiply and round and subtract 1
+	randomNumber = Math.random();
+	randomNumber = randomNumber * (myAnimals.length-1);
+    randomNumber = Math.round( randomNumber );
+    // it is now a whole number and larger, it's as low as zero no larger than my list length
+
+
+    // pick a random animal
+    var whichAnimal = myAnimals[randomNumber];
+
+    // now pick a random verb
+	randomNumber = Math.round(Math.random()*(myVerbs.length-1));  // same condensed random code
+	var whatAction = myVerbs[randomNumber];
+
+	// now pick a random object
+	var whatObject=mySchoolObjects[Math.round(Math.random()*(mySchoolObjects.length-1))]; // xtra condensed code
+
+
+	// let the results show in a longer text string
+    var myExcuse="Dear Teacher, I'm sorry to report but, my " 
+    myExcuse = myExcuse + whichAnimal + " " + whatAction + " my " + whatObject ;
+
+
+	// we need a tempId for our DOM Document Model code below
+	var tempId = 0;
+    tempId = document.getElementById(divParamater); // we are using the paramater whatDiv 
+    // you might need to google innerhtml to understand how this code works
+    tempId.innerHTML =  myExcuse;
+	// in this very last line we push out myExcuse to the DIV in our HTML body
+	console.log(myExcuse);  // just to debug output
+	return myExcuse;
+	// end of function myExcuseFunction	no code runs after this line...	
+}
+
+</script>
+
+<style type="text/css">
+	#outputdiv {
+	background-color: yellow;
+	height: 100px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 32pt;
+	font-family: courier;
+	padding: 5%;
+	text-align: center;
+	}
+</style>
+
+</head>
+
+
+
+<body>
+
+<button onclick=myExcuseFunction("outputdiv") > 
+	click me  
+</button>
+<br>
+<!-- this is a comment in HTML -->
+<!-- if you change the id attribute below, also change the paramter when we call the function -->
+
+
+<div id="outputdiv"  >
+    I'm text in a div. Click the button to run JavaScript.
+</div>
+
+
+</body>
+</html>
+<!-- code adapted from https://d157rqmxrxj6ey.cloudfront.net/mozillalearning/11698/ -->
