@@ -78,7 +78,8 @@ body {
 /* unvisited link */
 a:link {
     /*color: maroon;*/
-    color: #d1758b ;
+    /*color: #d1758b ;*/
+    color: yellow;
     text-decoration: none;
 }
 
