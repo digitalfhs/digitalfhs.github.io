@@ -10,6 +10,20 @@ body {
 	padding: 0;
 }
 
+p {
+font-size: 18pt;
+padding-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
+/* the padding moves the text away from other objects */
+background-color: grey;
+color: white;
+font-family: Comic Sans MS;	
+/* this is a middle school teacher's favorite font */
+}
+
+
+
 #container {
 	min-height: 90vw;
   /*width: 95vw;*/
