@@ -1,0 +1,15 @@
+img {
+max-width: 100%;
+height: auto;
+
+display: block;
+margin: auto;
+width: 50%;
+
+}
+
+#picturecontainer {
+	width: 100%;
+	background-color: black;
+	color: white;
+}

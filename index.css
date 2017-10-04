@@ -5,14 +5,14 @@
 body {
 	background-color: grey;
 	/*font-size: 32px;*/
-	font-size: 26px;
+	font-size: 22px;
 	margin: 0;
 	padding: 0;
 }
 
 p {
-font-size: 18pt;
-padding-bottom: 40px;
+font-size: 15pt;
+padding-bottom: 30px;
 padding-left: 20px;
 padding-right: 20px;
 /* the padding moves the text away from other objects */
@@ -20,6 +20,17 @@ background-color: grey;
 color: white;
 font-family: Comic Sans MS;	
 /* this is a middle school teacher's favorite font */
+
+/* for a long URL word wrap the text */
+overflow-wrap: break-word;
+word-wrap: break-word;
+-ms-word-break: break-all;
+word-break: break-all;
+word-break: break-word;
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
 }
 
 
@@ -27,7 +38,7 @@ font-family: Comic Sans MS;
 #container {
 	min-height: 90vw;
   /*width: 95vw;*/
-	width: 81vw;
+	width: 86vw;
 	/*margin-left: 2.5vw;*/
 	/*padding: 2vw;*/
 	/*float: left;
@@ -114,4 +125,13 @@ a:hover {
 a:active {
     color: red;
     text-decoration: none;
+}
+
+.pictureframe {
+max-width: 100%;
+height: auto;
+display: block;
+margin: auto;
+width: 50%;
+
 }
