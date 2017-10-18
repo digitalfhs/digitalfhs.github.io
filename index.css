@@ -4,7 +4,6 @@
 
 body {
 	background-color: grey;
-	/*font-size: 32px;*/
 	font-size: 22px;
 	margin: 0;
 	padding: 0;
@@ -37,15 +36,7 @@ hyphens: auto;
 
 #container {
 	min-height: 90vw;
-  /*width: 95vw;*/
 	width: 86vw;
-	/*margin-left: 2.5vw;*/
-	/*padding: 2vw;*/
-	/*float: left;
-	clear: both;*/
-
-
-
 	margin: 0 auto;
 	/* need to examanie this more */
 }
@@ -54,12 +45,8 @@ hyphens: auto;
 	float: left;
 	clear: both;
 	min-height: 4vw;
-	/*width: 81vw;*/
 	width: 100%;
 	padding: 3vw;
-
-	/*margin-left: 5vw;*/
-	/*background-color: silver;*/
 	background-color: #591e28;
 }
 
@@ -67,27 +54,22 @@ hyphens: auto;
 	float: left;
 	clear: both;
 	min-height: 40vh;
-	/*width: 81vw;*/
 	width: 100%;
 	padding: 3vw;
-	/*margin-left: 5vw;*/
 	color: white;
 	background-color: black;
-	/*font-size: 24pt;*/
 }
-
 
 .menubox {
 	min-width: 8vw;
 	/* width is measured in units viewport width    vw  there is also vh for height */
 	background-color: black;
-	/*font-size: 32pt;*/
 	color: white;
 	display: block;
 	float: left;
 	margin: .5vw;
 	padding: 1vw;
-	border-radius: 10vw;
+	border-radius: 7vw;
 	text-align: center;
 	border: .5vw white solid;
 }
@@ -102,15 +84,12 @@ hyphens: auto;
 
 /* unvisited link */
 a:link {
-    /*color: maroon;*/
-    /*color: #d1758b ;*/
-    color: yellow;
+       color: yellow;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    /*color: maroon;*/
     color: #d1758b ;
     text-decoration: none;
 }
