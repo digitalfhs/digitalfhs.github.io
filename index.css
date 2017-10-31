@@ -2,6 +2,16 @@
 	box-sizing: border-box;
 }
 
+.redtext {
+	color: red;
+}
+
+.pinktext {
+	color: pink;
+}
+
+
+
 body {
 	background-color: grey;
 	font-size: 22px;
@@ -11,7 +21,7 @@ body {
 
 p {
 font-size: 15pt;
-padding-bottom: 30px;
+padding-bottom: 38px;
 padding-left: 20px;
 padding-right: 20px;
 /* the padding moves the text away from other objects */
@@ -60,6 +70,7 @@ hyphens: auto;
 	background-color: black;
 }
 
+
 .menubox {
 	min-width: 8vw;
 	/* width is measured in units viewport width    vw  there is also vh for height */
@@ -72,6 +83,13 @@ hyphens: auto;
 	border-radius: 7vw;
 	text-align: center;
 	border: .5vw white solid;
+}
+
+.menubox:hover {
+	padding-top:    2vh;
+	padding-bottom: 2vh;
+    background-color: grey;
+    width: 300px;
 }
 
 
