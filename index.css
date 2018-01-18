@@ -85,13 +85,6 @@ hyphens: auto;
 	border: .5vw white solid;
 }
 
-.menubox:hover {
-	padding-top:    2vh;
-	padding-bottom: 2vh;
-    background-color: grey;
-    width: 300px;
-}
-
 
 .smallbox {
 	height: 10vw;
