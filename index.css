@@ -7,7 +7,7 @@
 }
 
 .pinktext {
-	color: pink;
+	color: red;
 }
 
 
@@ -101,7 +101,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #d1758b ;
+    color: orange ;
     text-decoration: none;
 }
 
