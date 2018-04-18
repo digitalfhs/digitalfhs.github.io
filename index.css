@@ -54,9 +54,13 @@ hyphens: auto;
 #menuheader {
 	float: left;
 	clear: both;
-	min-height: 4vw;
+	min-height: 3vw;
 	width: 100%;
-	padding: 3vw;
+	/*padding: 3vw;*/
+	padding-left:3vw ;
+	padding-right:3vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 	background-color: #591e28;
 }
 
@@ -65,7 +69,12 @@ hyphens: auto;
 	clear: both;
 	min-height: 40vh;
 	width: 100%;
-	padding: 3vw;
+	/*padding: 3vw;*/
+	padding-left:3vw ;
+	padding-right:3vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	
 	color: white;
 	background-color: black;
 }
