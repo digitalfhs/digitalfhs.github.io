@@ -10,6 +10,10 @@
 	color: red;
 }
 
+.bigtext {
+	font-size: larger;
+	color: #E7E4B6;
+}
 
 
 body {
@@ -20,6 +24,7 @@ body {
 }
 
 p {
+/*filter: brightness(80%);*/
 font-size: 15pt;
 padding-bottom: 38px;
 padding-left: 20px;
