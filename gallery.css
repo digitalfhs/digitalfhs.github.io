@@ -2,7 +2,7 @@ body {
 margin: 0px;
 padding: 30px;
 background-color: #84CF6E;
-background-color: pink;
+background-color: silver;
 }
 
 
@@ -13,6 +13,14 @@ font-size: 18pt;
 float: left;
 clear: both;
 padding-bottom: 30px;
+border: 1px solid charcoal;
+padding: 12px;
+box-shadow: 2px 4px;
+border-radius: 12px;
+margin-top: 13px;
+opacity: .9;
+background-color: white;
+color: black;
 }
 
 
@@ -25,7 +33,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: black;
+  color: darkgray;
   text-decoration: none;
 
 }
