@@ -1,0 +1,67 @@
+
+body {
+margin: 0px;
+padding: 30px;
+background-color: #84CF6E;
+background-color: silver;
+background-color: red;
+}
+
+div {
+float: left;
+clear: both;
+margin-right: 10%;
+margin-left: 10%;
+width: 70%;
+padding: 5%;
+border-radius: 25px;
+background-color: white;
+color: black;
+font-size: 30pt;
+}
+
+
+
+#box-with-click {
+font-size: 18pt;
+float: left;
+clear: both;
+padding-bottom: 30px;
+border: 1px solid charcoal;
+padding: 12px;
+box-shadow: 2px 4px;
+border-radius: 12px;
+margin-top: 13px;
+opacity: .9;
+background-color: purple;
+color: yellow;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: darkgray;
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+  color: grey;
+  text-decoration: none;
+
+}

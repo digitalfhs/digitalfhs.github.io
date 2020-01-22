@@ -1,18 +1,61 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="temp.css">
+	<title>silence agreement</title>
+</head>
 
-Android: 
-<a href="http://news.google.com">
-  Android, Press and hold, incognito
-</a><br><br>
+<body id="my-id1">
 
-iPhone: Read the red text below<br>
-<img src="media/marc.png" width=250px ><br>
-<a href="http://news.google.com">
-  Vote via iPhone here
-</a><br><br>
+<div id="expectations-div">
+   Rules and expectations for our finals day:  
+   <ol>
+	   	<li>
+	   		Silent until all students are done, and silence until teacher starts music. Take all 3 or more quizes. 
+	   	</li>
+	   	<li>
+	   		Silent hands raised if you have questions and can't find help on the projector, notebook or LMS. You must have 3 tabs open to LMS.PPS.NET   quizIzz.com and drive.google.com ( use @student.pps.net not personal gmail )
+	   	</li>
+	   	<li>
+	   		There are no warnings for electronics that are observed near your body. If you are asked to turn them in you must.  If not security will be called. All electronic put away, from your body. Screens down if charing. 
+	   	</li>
+	</ol>
+</div>
 
-Desktop or Laptop<br>
 
-<a href="http://news.google.com">
-  Right click here on a laptop, select incognito/private
-</a><br><br>
+<div id="box-with-click" onclick=greenFunction()>
+	Click here if you agree to silence and all class expectations.
+</div>
+
+
+<a href="https://quizizz.com/join?class=D881000">...</a>
+
+<script type="text/javascript">
+function greenFunction() {
+	var myElement = document.getElementById("my-id1");
+	// DOM method getElementbyId  !!!!
+	myElement.style.backgroundColor = "green";
+	myElement = document.getElementById("expectations-div");
+	myElement.style.backgroundColor = "green";
+	if(typeof(Storage) === "undefined") 
+	    {
+	    console.log("Sorry, your browser does not support web storage...");
+	    } 
+	    else if ( isNaN(localStorage.clickCount)  ) 
+	            {
+	            // declare session storage and set to 1
+	            localStorage.clickCount = 1;
+	            console.log("Yay, your first click");
+	            } else 
+	                {
+		            localStorage.clickCount = eval(localStorage.clickCount)  +1;
+		            console.log("You clicked " + localStorage.clickCount + " time(s)." );
+	                }
+}
+// end function 
+
+
+
+
+
+</script>
+</body>
 
