@@ -1,0 +1,66 @@
+<!doctype HTML>
+<html>
+<head>
+<title>HTML5 storage test JR </title>
+<script type="text/javascript">
+
+function myPrivacy(){
+    localStorage.clear();
+    console.log("storage cleared via code..");
+}
+
+function myAppend (   ){
+// get ID of the body
+var myBodyId = document.getElementById("bodyId")	
+// Create an element node
+var myElement = document.createElement("p");             
+
+//  create text
+ if(typeof(Storage) === "undefined") 
+    {
+    var myTextNode = document.createTextNode("Sorry, your browser does not support web storage...");
+    } 
+    else if (localStorage.clickcount) 
+            {
+            localStorage.clickcount = eval(localStorage.clickcount)  +1;
+            var myTextNode = document.createTextNode("clicked times.. " + localStorage.clickcount );
+            console.log("count= " + localStorage.clickcount);  
+            } else 
+                {
+                localStorage.clickcount = 1;
+                var myTextNode = document.createTextNode("Yay, your first click");
+                console.log("you first click");
+                }
+ 
+
+// Append the text message node to the element
+myElement.appendChild(myTextNode);                
+myBodyId.appendChild(myElement);                     
+// Append p element to body
+}  // close of function myF
+
+
+</script>
+</head>
+
+
+<body id="bodyId"  style="background-color:red;font-size:24pt" >
+  The "beginning of time" tool to clear your google chrome browser history is not working correctly.. <br><br> Try these steps  1) Append a few paragrahps  2) Clear your browser with "begining of time"  ctrl+H   3) Refresh this page 4) Append a few paragraphs..     Only by manually clearning your HTML5 storage are you cleared.     ps:  Open debug window with Ctrl+Shift+j.<br><br>
+
+ 
+<button onclick=myAppend()  > 
+	Add a paragraph
+</button> 
+
+
+<button onclick=myPrivacy()  > 
+    Warning!  close all other browser tabs, then click here to manually clear all HTML5 data storage
+</button> 
+
+
+</body>
+
+<!-- some code copied from https://www.w3schools.com/html/html5_webstorage.asp  -->
+<!-- http://www.w3schools.com/jsref/met_node_appendchild.asp -->
+
+<html>
