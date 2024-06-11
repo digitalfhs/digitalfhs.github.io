@@ -9,14 +9,15 @@ background-color: silver;
 
 
 a {
-font-size: 18pt;
+font-size: 4vw;
 float: left;
 clear: both;
 padding-bottom: 30px;
 border: 1px solid charcoal;
 padding: 12px;
+padding-left: 1.5vw;
 box-shadow: 2px 4px;
-border-radius: 12px;
+border-radius: 3vw;
 margin-top: 13px;
 opacity: .9;
 background-color: white;
